@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     telesms (0.1.0)
-      mail
+      mail (~> 2.5)
       rails (> 3.0.0)
 
 GEM
@@ -114,9 +114,9 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.3)
-  faker
-  rspec
-  rspec-rails
-  shoulda
-  simplecov
+  faker (~> 1.3)
+  rspec (~> 2.14)
+  rspec-rails (~> 2.14)
+  shoulda (~> 3.5)
+  simplecov (~> 0.8)
   telesms!
