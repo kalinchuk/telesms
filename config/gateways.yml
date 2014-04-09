@@ -1,2 +1,6 @@
 'AT&T':
-  :sms_gateway: att.com
+  :sms: att.com
+  :mms: mmode.com
+'Verizon':
+  :sms: vtext.com
+  :mms: vswpix.com

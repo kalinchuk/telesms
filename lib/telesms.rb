@@ -1,6 +1,5 @@
+# This module encapsulates all of the code for the telesms gem.
 module Telesms
-  class Outgoing
-  end
 end
 
 require 'mail'

@@ -5,19 +5,19 @@ module Telesms
 
     # @return [String]
     # The FROM address.
-    attr_reader :from
+    attr_accessor :from
 
     # @return [String]
     # The TO address (will be concatinated with a provider).
-    attr_reader :to
+    attr_accessor :to
 
     # @return [String]
     # The provider for the number.
-    attr_reader :provider
+    attr_accessor :provider
 
     # @return [String]
     # The message body being sent.
-    attr_reader :message
+    attr_accessor :message
 
     # This method creates a new outgoing message and sends it.
     #
@@ -34,8 +34,8 @@ module Telesms
     #   The message being sent.
     #
     # @return [Mail]
-    def self.send(from, to, provider, message)
-      self.new(from, to, provider, message).send
+    def self.deliver(from, to, provider, message)
+      self.new(from, to, provider, message).deliver
     end
 
     # This method creates a new outgoing message.
@@ -63,8 +63,8 @@ module Telesms
     # This method sends an email message disguised as an SMS message.
     #
     # @return [Mail]
-    def send
-      Mail.new(from: from, to: formatted_to, body: message).deliver!
+    def deliver
+      Mail.new(from: from, to: formatted_to, body: sanitized_message).deliver!
     end
 
     # This method formats the TO address to include the provider.
@@ -72,6 +72,13 @@ module Telesms
     # @return [String]
     def formatted_to
       "#{to}@#{Base.gateways[@provider][:sms_gateway]}"
+    end
+
+    # This method sanitizes the message body.
+    #
+    # @return [String]
+    def sanitized_message
+      message.to_s[0,140]
     end
   end
 end
