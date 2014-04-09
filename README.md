@@ -2,7 +2,7 @@
 
 TeleSMS is a library for sending and receiving SMS messages with emails.
 It uses carrier-provided email-to-sms gateways to send and receive messages.
-To see a list of gateways, visit [https://web.archive.org/web/20130906122931/http://en.wikipedia.org/wiki/List_of_SMS_gateways].
+To see a list of gateways, visit https://web.archive.org/web/20130906122931/http://en.wikipedia.org/wiki/List_of_SMS_gateways.
 
 The purpose of this library is to encapsulate the code for sending and receiving 
 email-to-sms messages since there are many edge cases. The goal is to maintain
@@ -36,7 +36,12 @@ To receive and parse a message:
     Telesms::Incoming.receive(params[:mail])
     # => { from: '555555555', to: 'john@example.com', body: 'Message body', provider: 'Verizon' }
 
-== LICENSE:
+To get a list of available gateways:
+
+    Telesms::Base.gateways
+    # => { 'AT&T' => { sms: 'att.com', mms: 'mmode.com'}, ... }
+
+## LICENSE:
 
 (The MIT License)
 
