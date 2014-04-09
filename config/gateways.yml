@@ -1,6 +1,45 @@
+'Alltel':
+  :sms: message.alltel.com
+'Ameritech':
+  :sms: paging.acswireless.com
 'AT&T':
-  :sms: att.com
-  :mms: mmode.com
+  :sms: txt.att.net
+  :mms: mms.att.net
+'Bell Atlantic':
+  :sms: message.bam.com
+'Bellsouth Mobility':
+  :sms: blsdcs.net
+'BlueSkyFrog':
+  :sms: blueskyfrog.com
+'Boost Mobile':
+  :sms: myboostmobile.com
+'Cellular South':
+  :sms: csouth1.com
+'Cingular':
+  :sms: cingularme.com
+'Comcast PCS':
+  :sms: comcastpcs.textmsg.com
+'Cricket':
+  :sms: sms.mycricket.com
+'Kajeet':
+  :sms: mobile.kajeet.net
+'Metro PCS':
+  :sms: mymetropcs.com
+'Nextel':
+  :sms: messaging.nextel.com
+'Ntelos':
+  :sms: pcs.ntelos.com
+'Powertel':
+  :sms: ptel.net
+'Sprint':
+  :sms: messaging.sprintpcs.com
+  :mms: pm.sprint.com
+'T-Mobile':
+  :sms: tmomail.net
 'Verizon':
   :sms: vtext.com
-  :mms: vswpix.com
+  :mms: vzwpix.com
+'Virgin Mobile Canada':
+  :sms: vmobile.ca
+'Virgin Mobile USA':
+  :sms: vmobl.com
