@@ -39,7 +39,7 @@ describe Telesms::Outgoing do
 
   describe "formatted_to" do
     subject { outgoing_message.formatted_to }
-    it { should match /#{to}\@(.*)/ }
+    it { should match /#{to}\@[a-zA-Z0-9\.\-]+/ }
   end
 
   describe "sanitized_message" do
