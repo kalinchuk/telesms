@@ -83,7 +83,7 @@ describe Telesms::Incoming do
     end
 
     context "with a matching mms gateway" do
-      before { params[:from] = '555555555@mmode.com' }
+      before { params[:from] = '555555555@mms.att.net' }
       it { should eq 'AT&T' }
     end
 
