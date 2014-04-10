@@ -39,7 +39,15 @@ describe Telesms::Outgoing do
 
   describe "formatted_to" do
     subject { outgoing_message.formatted_to }
-    it { should match /#{to}\@[a-zA-Z0-9\.\-]+/ }
+
+    context "with a valid provider" do
+      it { should match /#{to}\@[a-zA-Z0-9\.\-]+/ }
+    end
+
+    context "with an invalid provider" do
+      let(:provider) { 'invalid' }
+      it { expect { subject }.to raise_error }
+    end
   end
 
   describe "sanitized_message" do
