@@ -43,7 +43,11 @@ To get a list of available gateways:
 
 ## Configuration
 
-Make sure your Rails application has a mail server configured. TeleSMS will use the default configuration of your application.
+Configure the mail gem to use the correct delivery method:
+
+    Mail.defaults do
+      delivery_method :sendmail # or :smtp, options
+    end
 
 ## Contributing
 
