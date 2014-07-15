@@ -68,4 +68,4 @@ If you want to contribute, please:
 
 ## LICENSE:
 
-TeleSMS is Copyright © 2014 Telefio. It is free software, and may be redistributed under the terms specified in the MIT-LICENSE file.
+TeleSMS is Copyright © 2014 Code Garden, LLC. It is free software, and may be redistributed under the terms specified in the MIT-LICENSE file.
