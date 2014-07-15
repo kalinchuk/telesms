@@ -1,7 +1,7 @@
 describe Telesms::Incoming do
   let(:klass) { Telesms::Incoming }
   let(:params) {{
-    from:   ['555555555@vtext.com'],
+    from:   ['555555555@pacbellpcs.net'],
     to:     ['444444444@example.com'],
     body:   Faker::Lorem.sentence
   }}
@@ -66,7 +66,7 @@ describe Telesms::Incoming do
     subject { incoming_message.gateway_host }
 
     context "when email is valid" do
-      it { should eq 'vtext.com' }
+      it { should eq 'pacbellpcs.net' }
     end
 
     context "when email is invalid" do
@@ -79,12 +79,12 @@ describe Telesms::Incoming do
     subject { incoming_message.provider }
 
     context "with a matching sms gateway" do
-      it { should eq 'Verizon' }
+      it { should eq 'Pacific Bell' }
     end
 
     context "with a matching mms gateway" do
-      before { params[:from] = '555555555@mms.att.net' }
-      it { should eq 'AT&T' }
+      before { params[:from] = '555555555@mtn.com.gh' }
+      it { should eq 'MTN Ghana' }
     end
 
     context "with no matching gateways" do

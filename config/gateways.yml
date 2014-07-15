@@ -1,45 +1,226 @@
+'3 River Wireless':
+  :sms: sms.3rivers.net
+'7-11 Speakout (USA GSM)':
+  :sms: cingularme.com
+'Advantage Communications':
+  :sms: advantagepaging.com
+'AIO Wireless':
+  :sms: mms.aiowireless.net
+  :mms: mms.aiowireless.net
+'Airtel (Karnataka, India)':
+  :sms: airtelkk.com
+'Airtel Wireless (Montana, USA)':
+  :sms: sms.airtelmontana.com
+'AirVoice':
+  :sms: mmode.com
+'Alaska Communications Systems':
+  :sms: msg.acsalaska.com
 'Alltel':
   :sms: message.alltel.com
-'Ameritech':
-  :sms: paging.acswireless.com
+'Aql':
+  :sms: text.aql.com
+'Arch Wireless':
+  :sms: archwireless.net
+  :mms: archwireless.net
+'Assurance Wireless':
+  :sms: vmobl.com
+  :mms: vmobl.com
 'AT&T':
   :sms: txt.att.net
   :mms: mms.att.net
-'Bell Atlantic':
-  :sms: message.bam.com
-'Bellsouth Mobility':
-  :sms: blsdcs.net
-'BlueSkyFrog':
-  :sms: blueskyfrog.com
+'AT&T Enterprise Paging':
+  :sms: page.att.net
+'BeeLine GSM (Russia)':
+  :sms: sms.beemail.ru
+'Bell Mobility & Solo Mobile (Canada)':
+  :sms: txt.bell.ca
+'BigRedGiant Mobile Solutions':
+  :sms: tachyonsms.co.uk
+'Bluegrass Cellular':
+  :sms: sms.bluecell.com
 'Boost Mobile':
   :sms: myboostmobile.com
-'Cellular South':
-  :sms: csouth1.com
+'BPL Mobile (Mumbai, India)':
+  :sms: bplmobile.com
+'CallPlus':
+  :sms: mmode.com
+'Carolina Mobile Communications':
+  :sms: cmcpaging.com
+'Cellular One (Dobson)':
+  :sms: mobile.celloneusa.com
+'Centennial Wireless':
+  :sms: cwemail.com
 'Cingular':
   :sms: cingularme.com
-'Comcast PCS':
-  :sms: comcastpcs.textmsg.com
+'Claro (Brasil)':
+  :sms: clarotorpedo.com.br
+'Claro (Nicaragua)':
+  :sms: ideasclaro-ca.com
+'Comcel':
+  :sms: comcel.com.co
+'Consumar Cellular':
+  :sms: cingularme.com
+  :mms: cingularme.com
+'Credo':
+  :sms: messaging.sprintpcs.com
+  :mms: pm.sprint.com
 'Cricket':
-  :sms: sms.mycricket.com
-'Kajeet':
-  :sms: mobile.kajeet.net
-'Metro PCS':
+  :sms: mycricket.com
+'C-Spire Wireless':
+  :sms: cspire1.com
+  :mms: cspire1.com
+'CTI':
+  :sms: sms.ctimovil.com.ar
+'Emtel (Mauritius)':
+  :sms: emtelworld.net
+'Fido (Canada)':
+  :sms: fido.ca
+'General Communications Inc.':
+  :sms: msg.gci.net
+'Globalstar (satellite)':
+  :sms: msg.globalstarusa.com
+'Golden Telecom':
+  :sms: sms.goldentele.com
+'H2O Wireless':
+  :sms: txt.att.net
+  :mms: mms.att.net 
+'Helio':
+  :sms: messaging.sprintpcs.com
+'Houston Cellular':
+  :sms: text.houstoncellular.net
+'Idea India':
+  :sms: ideacellular.net
+'Illinois Valley Cellular':
+  :sms: ivctext.com
+'Iridium (satellite)':
+  :sms: msg.iridium.com
+'Iusacell':
+  :sms: rek2.com.mx
+'I wireless':
+  :sms: .iwsiwspcs.net
+'Koodo Mobile (Canada)':
+  :sms: msg.koodomobile.com
+'Kyivstar':
+  :sms: 2sms.kyivstar.net
+'Lebanon MTC':
+  :sms: mtctouch.com.lb
+  :mms: mtctouch.com.lb
+'LMT (Latvia)':
+  :sms: sms.lmt.lv
+'MCI Phone':
+  :sms: mci.com
+'Meteor (Ireland)':
+  :sms: sms.mymeteor.ie
+'MetroPCS':
   :sms: mymetropcs.com
+'Midwest Wireless':
+  :sms: clearlydigital.com
+'MobiPCS (Hawaii only)':
+  :sms: mobipcs.net
+'Mobitel (Sri Lanka)':
+  :sms: sms.mobitel.lk
+'Morris Wireless':
+  :sms: beepone.net
+'Movicom (Argentina)':
+  :sms: sms.movistar.net.ar
+'Movistar (Colombia)':
+  :sms: movistar.com.co
+'MTN Ghana':
+  :sms: mtn.com.gh
+  :mms: mtn.com.gh
+'MTN (South Africa)':
+  :sms: sms.co.za
+'MTS (Canada)':
+  :sms: text.mtsmobility.com
+'NET10':
+  :sms: txt.att.net
+  :mms: mms.att.net
 'Nextel':
   :sms: messaging.nextel.com
+'NPI Wireless':
+  :sms: npiwireless.com
 'Ntelos':
   :sms: pcs.ntelos.com
-'Powertel':
-  :sms: ptel.net
+'Omnipoint':
+  :sms: omnipoint.com
+'Pacific Bell':
+  :sms: pacbellpcs.net
+'Page Plus':
+  :sms: vtext.com
+  :mms: mms.vwz.com
+'Personal (Argentina)':
+  :sms: alertas.personal.com.ar
+'President’s Choice (Canada)':
+  :sms: txt.bell.ca
+'Primtel (Russia)':
+  :sms: sms.primtel.ru
+'Qualcomm':
+  :sms: pager.qualcomm.com
+'Qwest':
+  :sms: qwestmp.com
+'Republic Wireless':
+  :sms: messaging.sprintpcs.com
+'Revol':
+  :sms: mms.revol.com
+  :mms: mms.revol.com
+'Rogers (Canada)':
+  :sms: pcs.rogers.com
+'Sasktel (Canada)':
+  :sms: sms.sasktel.com
+'SCS-900 (Russia)':
+  :sms: scs-900.ru
+'Simple Freedom':
+  :sms: text.simplefreedom.net
+'Simple Mobile':
+  :sms: smtext.com
+'SL Interactive (Australia)':
+  :sms: slinteractive.com.au
 'Sprint':
   :sms: messaging.sprintpcs.com
   :mms: pm.sprint.com
+'Straight Talk':
+  :sms: vtext.com
+  :mms: mypixmessages.com
+'Suncom':
+  :sms: tms.suncom.com
+'Telus Mobility (Canada)':
+  :sms: msg.telus.com
+'Thumb Cellular':
+  :sms: sms.thumbcellular.com
 'T-Mobile':
   :sms: tmomail.net
-'Verizon':
+'T-Mobile (Austria)':
+  :sms: sms.t-mobile.at
+'T-Mobile (UK)':
+  :sms: t-mobile.uk.net
+'Tracfone (prepaid)':
+  :sms: mmst5.tracfone.com
+'Triton':
+  :sms: tms.suncom.com
+'UMC (Ukraine)':
+  :sms: sms.umc.com.ua
+'Unicel':
+  :sms: utext.com
+'Uraltel (Russia)':
+  :sms: sms.uraltel.ru
+'US Cellular':
+  :sms: email.uscc.net
+'Verizon Wireless':
   :sms: vtext.com
   :mms: vzwpix.com
-'Virgin Mobile Canada':
+'Vessotel (Russia)':
+  :sms: pager.irkutsk.ru
+'Virgin Mobile (Canada)':
   :sms: vmobile.ca
 'Virgin Mobile USA':
   :sms: vmobl.com
+'Vodacom (South Africa)':
+  :sms: voda.co.za
+'Vodafone (Italy)':
+  :sms: sms.vodafone.it
+'Western Wireless':
+  :sms: cellularonewest.com
+'Wyndtell':
+  :sms: wyndtell.com
+'YCC':
+  :sms: sms.ycc.ru

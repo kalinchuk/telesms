@@ -5,6 +5,6 @@ describe Telesms::Base do
     subject { klass.gateways }
 
     it { should be_a Hash }
-    it { should include('Verizon' => { sms: 'vtext.com', mms: 'vzwpix.com' }) }
+    it { should include('Verizon Wireless' => { sms: 'vtext.com', mms: 'vzwpix.com' }) }
   end
 end
