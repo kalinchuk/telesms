@@ -1,3 +1,7 @@
+# Version 0.1.5 - 18 July 2014
+
+* Fix body methods.
+
 # Version 0.1.4 - 18 July 2014
 
 * Add more logic to clean body.

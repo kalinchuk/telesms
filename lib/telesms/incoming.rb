@@ -7,6 +7,10 @@ module Telesms
     # The mail message created from the params.
     attr_reader :mail
 
+    # @return [String]
+    # The body of the message.
+    attr_accessor :body
+
     # This method receives a mail param and parses it.
     #
     # @param [Hash] params
@@ -60,13 +64,6 @@ module Telesms
       @mail.from.first.to_s.match(/(.*)\@/)[1] rescue nil
     end
 
-    # This method gets the body of the message.
-    #
-    # @return [String]
-    def body
-      @mail.body.to_s[0,160]
-    end
-
     # This method gets the gateway host from the FROM field.
     #
     # @return [String]
@@ -94,7 +91,8 @@ module Telesms
       body        = body.gsub(/\n/, '').gsub(/\s+/, ' ')
       body        = body[0, body.index(original_message_regex) || body.length].to_s
       body        = body.split(/\n\s*\n/m, 2)[1] || body if body.match(/\n/)
-      @mail.body  = body.to_s.gsub(/\n/, '').strip
+      body        = body.to_s.gsub(/\n/, '').strip
+      @body       = body[0,160]
       return true
     end
 
