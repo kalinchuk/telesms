@@ -108,14 +108,27 @@ describe Telesms::Incoming do
       it { should eq 'Test' }
     end
 
-    context "with multiple lines" do
-      before { params[:body] = "Test\n \n message" }
-      it { should eq 'message' }
-    end
-
     context "with a newline" do
       before { params[:body] = "Test \n message" }
-      it { should eq 'Test  message' }
+      it { should eq 'Test message' }
+    end
+
+    context "with HTML tags" do
+      before { params[:body] = "<PRE>Testing</PRE><HTML></HTML>" }
+
+      it { should eq 'Testing'}
+    end
+
+    context "with a signature horizontal line" do
+      before { params[:body] = "_____________________________________________________________\n\n Test" }
+
+      it { should eq 'Test'}
+    end
+
+    context "with multiple spaces" do
+      before { params[:body] = "Testing    message" }
+
+      it { should eq 'Testing message' }
     end
   end
 

@@ -1,3 +1,7 @@
+# Version 0.1.4 - 18 July 2014
+
+* Add more logic to clean body.
+
 # Version 0.1.3 - 15 July 2014
 
 * Add more gateways

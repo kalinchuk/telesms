@@ -89,6 +89,9 @@ module Telesms
     def clean_body!
       body        = @mail.parts.last.body.decoded if @mail.multipart?
       body        ||= @mail.body.to_s
+      body        = body.gsub(/<[^>]*>/, '')
+      body        = body.gsub("_____________________________________________________________\n\n", '')
+      body        = body.gsub(/\n/, '').gsub(/\s+/, ' ')
       body        = body[0, body.index(original_message_regex) || body.length].to_s
       body        = body.split(/\n\s*\n/m, 2)[1] || body if body.match(/\n/)
       @mail.body  = body.to_s.gsub(/\n/, '').strip
