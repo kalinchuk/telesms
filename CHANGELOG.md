@@ -1,3 +1,7 @@
+# Version 0.1.6 - 2 March 2016
+
+* Add Google FI to list of providers.
+
 # Version 0.1.5 - 18 July 2014
 
 * Fix body methods.

@@ -81,6 +81,8 @@
   :sms: msg.globalstarusa.com
 'Golden Telecom':
   :sms: sms.goldentele.com
+'Google FI':
+  :sms: msg.fi.google.com
 'H2O Wireless':
   :sms: txt.att.net
   :mms: mms.att.net 
