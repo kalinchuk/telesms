@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     telesms (0.1.6)
-      mail (~> 2.6.3)
+      mail (>= 2.5.4)
       rails (> 3.0.0)
 
 GEM
