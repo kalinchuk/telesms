@@ -224,6 +224,8 @@
   :sms: sms.vodafone.it
 'Western Wireless':
   :sms: cellularonewest.com
+'Wind Mobile':
+  :sms: txt.windmobile.ca
 'Wyndtell':
   :sms: wyndtell.com
 'YCC':
